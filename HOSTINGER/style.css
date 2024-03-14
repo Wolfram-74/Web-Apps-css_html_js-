@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    color: #333; /* Default text color */
+}
+
+nav {
+    background-color: #f8f8f8; /* Background color for the header/nav */
+    color: #333; /* Text color for the header/nav */
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-main {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 20px; /* Adjust margin for top and bottom */
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.column-left p {
+    font-size: 0.75rem;
+}
+
+.column-left h1 {
+    font-size: 1rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.card {
+    background-color: #555; /* Background color for countdown card */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem; /* Adjust padding for better spacing */
+    margin: 0.5rem;
+    border-radius: 8px; /* Increase border-radius for a softer look */
+}

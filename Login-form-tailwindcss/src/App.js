@@ -16,7 +16,7 @@ function App() {
           </form>
         </div>
       </Tilt>
-    </div>
+    </div> 
   );
 }
 
